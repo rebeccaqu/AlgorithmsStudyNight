@@ -28,8 +28,6 @@ class LinkedList
 
   # POP: removes last node in list
 
-  # SHIFT: removes first node in list
-
   # HEAD: returns first node in list
 
   # TAIL: returns last node in list
@@ -46,13 +44,14 @@ class LinkedList
           # so you can preview them in the console. Format should be:
           # (data) -> (data) -> (data) -> nil
 
-
-
-  # STRETCH EXERCISES:
+  # BONUS!
 
   # INSERT_AT: inserts node at given index
+
   # REMOVE_AT: removes node at given index
+
   # REVERSE: reverse the linked list
+
 end
 
 # Source: https://www.theodinproject.com/
