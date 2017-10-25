@@ -3,7 +3,7 @@
 #     e.g. factorial(4) = 4 * 3 * 2 * 1 = 24
 
 def factorial(n)
-  if n == 0 # base case
+  if n <= 1 # base case
     1
   else
     n * factorial(n - 1)
@@ -15,7 +15,7 @@ end
 #     e.g. 'radar', 'level', 'kayak'
 
 def palindrome(string)
-  if string.length == 1 || string.length == 0 # base case
+  if string.length <= 1 # base case
     true
   else
     if string[0] == string[-1]
